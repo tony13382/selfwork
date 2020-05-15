@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+/*HEADER*/
+header{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+section{
+    margin: -10px;
+    min-width: 1000px;
+}
+div.header_img{
+    z-index: -1;
+}
+.header_word{
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    display: inline;
+}
+.header_title{
+    font-size: 60px;
+    margin-bottom: 15px;
+    transition: 3s;
+}
+.header_subtitle{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 15px;
+    transition: 3s;
+}
+.header_subtitle:hover{
+    transform: scale(2);
+    
+}
+a.btn_2aboutus{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-color: #DCECC3;
+    color: #001C36;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 1s;
+}
+a.btn_2aboutus:hover{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    background-color: #B5EBDA;
+    color: #001C36;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*SECTION */
+.block_blu{
+    background-color: #E7E5F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.block_sku{
+    background-color: #F6E7EC;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h3{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.row_item_3{
+    width: 33.33%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+}
+.row_item_2{
+    width: 50%;
+    float: left;
+}
+
+/*personal IMG*/
+.personl_img{
+    border-radius: 50%;
+    margin: auto;
+    display: inline;
+    width: 300px;
+    padding-top: 10px
+}
+p.myname{
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+p.subinfo{
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.img_area{
+    margin: auto;
+    width: 300px;
+}
+/*personal aboutme*/
+.aboutme_btn{
+    padding-top: 20px;
+    display: block;
+}
+.logo_icon{
+    width: 50px;
+    padding: 10px;
+}
+/*personal EDU*/
+.edu_ul{
+    list-style: none;
+    position: relative;
+}
+.edu_ul::before{
+    content:"";
+    display: block;
+    position: absolute;
+    background-color: black;
+    width: 5px;
+    height: 100%;
+    left: 28.5px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.edu_li{
+    padding-left: 16px;
+}
+.edu_li:hover{
+    padding-left: 16px;
+    color: #A0724E;
+}
+.edu_li::before{
+    content:"";
+    display: block;
+    position: absolute;
+    background-color: #DCECC3;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    left: 18px;
+    margin-top: 10px;
+}
+.edu_sp{
+    font-size: 32px;
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+    font-weight: bold;
+}
+.edu_p{
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+/*CODEING */
+.codeing_title{
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+.coding_row{
+    margin: auto;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 75px;
+}
+.coding_title{
+    font-size: 25px;
+    text-align: right;
+    width: 25%;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.coding_bar_area{
+    width: 75%;
+    height: 40px;
+    float: left;
+    margin-left: 50px;
+    margin-right: -50px;
+    margin-top: 10px;
+    position: relative;
+}
+.cod_back_bar{
+    background-color: #DCECC3;
+    width: 100%;
+    height: 40px;
+    border-radius: 80px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.cod_font_num{
+    margin: auto;
+    font-weight: bold;
+}
+/*BAR AREA*/
+.cod_font_bar75{
+    background-color: #B5EBDA;
+    height: 40px;
+    border-radius: 80px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+.cod_font_bar80{
+    background-color: #B5EBDA;
+    height: 40px;
+    border-radius: 80px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+.cod_font_bar90{
+    background-color: #B5EBDA;
+    height: 40px;
+    border-radius: 80px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+.cod_font_bar65{
+    background-color: #B5EBDA;
+    height: 40px;
+    border-radius: 80px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+.cod_font_bar40{
+    background-color: #B5EBDA;
+    height: 40px;
+    border-radius: 80px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+.cod_font_bar25{
+    background-color: #B5EBDA;
+    height: 40px;
+    border-radius: 80px;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+}
+
+.code_track:hover .cod_font_bar75{
+    width: 75%;
+    animation-name: bar_75;
+    animation-duration: 2s;
+}
+.code_track:hover .cod_font_bar80{
+    width: 80%;
+    animation-name: bar_80;
+    animation-duration: 2s;
+}
+.code_track:hover .cod_font_bar90{
+    width: 90%;
+    animation-name: bar_90;
+    animation-duration: 2s;
+}
+.code_track:hover .cod_font_bar65{
+    width: 65%;
+    animation-name: bar_65;
+    animation-duration: 2s;
+}
+.code_track:hover .cod_font_bar40{
+    width: 40%;
+    animation-name: bar_40;
+    animation-duration: 2s;
+}
+.code_track:hover .cod_font_bar25{
+    width: 25%;
+    animation-name: bar_25;
+    animation-duration: 2s;
+}
+/*BAR AREA ANI*/
+@keyframes bar_75 {from {width: 0px;}to {width: 75%;}}
+@keyframes bar_80 {from {width: 0px;}to {width: 80%;}}
+@keyframes bar_90 {from {width: 0px;}to {width: 90%;}}
+@keyframes bar_65 {from {width: 0px;}to {width: 65%;}}
+@keyframes bar_40 {from {width: 0px;}to {width: 40%;}}
+@keyframes bar_25 {from {width: 0px;}to {width: 25%;}}
+
+
+/*total score*/
+.total_row{
+    margin: auto;
+    width: 80%;
+}
+span.total_circle{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
+div.row_item_4{
+    width: 25%;
+    min-width: 150px;
+    display: flex;
+    float: left;
+}
+div.row_item_4p{
+    width: 25%;
+    min-width: 150px;
+    float: left;
+    padding-bottom: 50px;
+}
+.total_title{
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+    font-size: 45px;
+    width: 80%;
+    text-align: center;
+    margin:0 10%;
+    color: #001C36;
+    background-color: #DCECC3;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+.active, .total_title:hover {
+    color: black;
+    background-color: #F6E7EC;
+    border-style: solid;
+    border-radius: 10px;
+}
+p.total_subtitle{
+    font-size: 20px;
+    width: 70%;
+    margin: 10px 10%;
+    color: black;
+    display: none;
+    padding: 50px 5%;
+    background-color: #DCECC3;
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/*his*/
+.btn_click{
+    padding: 25px;
+    background-color: #ECEEF0;
+    border-radius: 250px;
+    border-color: #909FA5;
+    border-width: 3px;
+    margin: 10px;
+}
+.btn_click:hover{
+    padding: 25px;
+    background-color: #909FA5;
+    border-radius: 250px;
+    border-color: #909FA5;
+    border-width: 3px;
+    margin: 10px;
+    color: white;
+}
+div.show_his_area{
+    width: 80%;
+    padding-top: 20px;
+    margin: auto;
+    height: 370px;
+}
+#imgarea{
+    width: 40%;
+    float: left;
+    height: 350px;
+    padding-right: 25px;
+    transition: 3s;
+}
+#imgarea:hover{
+    transform: scale(1.20);
+}
+#wordarea{
+    width: 55%;
+    height: 350px;
+    float: right;
+}
+
+#his_title{
+    font-size: 35px;
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+    margin: 0;
+}
+#his_subtitle{
+    font-size: 30px;
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#his_info{
+    font-size: 20px;
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+    margin: auto;
+}
+
+
+
+/* setup item*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    width: 100%;
+}
+a, p,h3{
+    font-family: 'Noto Sans TC', "微軟正黑體", sans-serif;
+}
+div.cleaner{
+    clear: both;
+}
